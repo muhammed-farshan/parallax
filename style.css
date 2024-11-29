@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 100%;
+padding: 30px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 100;
+}
+
+
+.bar a {
+text-decoration: none;
+color: #0e846d;
+padding: 6px 15px;
+border-radius: 20px;
+margin: 0 10px;
+font-weight: 600;
+font-size: 20px;
+}
+.bar a:hover{
+    background: #0ca385;
+    color:  beige;
+}
+.parallax{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+overflow: hidden;
+}
+#text{
+    position: absolute;
+    font-size: 4rem;
+} 
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    background: #27966c;
+    padding: 100px;
+}
+.sec h2 {
+    font-size: 3rem;
+    color: antiquewhite;
+}
